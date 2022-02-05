@@ -14,7 +14,7 @@ sino te da un output parecido, instalar git.
 Con que instales git bash se instala git y con git bash podras administrar tus repositorios.
 
 ## Configurar tus credenciales de github
-  ** Configurar tu nombre en git **
+  **Configurar tu nombre en git**
   - Abre gitbash
 ```
   git config --global user.name "Nombre de usuario"  
@@ -25,5 +25,14 @@ Con que instales git bash se instala git y con git bash podras administrar tus r
 ```
   o puedes revisar el archivo **cat ./gitconfig**
 
+  **Confirmar credenciales en github**
+  Moverte al path donde esta tu usuario y buscar la carpeta **./shh** sino esta crearla, si esta acceder a la carpeta.
+```
+  El path seria similar:
+  cd /c/Users/Alexis Eduardo/.ssh
+```
+  **Revisar el sguiente link**
+  https://docs.github.com/es/account-and-profile/setting-up-and-managing-your-github-user-account/managing-email-preferences/setting-your-commit-email-address
+
 ## Clonar un repositorio en github
-  Si es un repositorio privado necesitaras estar inivitado al proyecto
+  **Si es un repositorio privado** necesitaras estar inivitado al proyecto
