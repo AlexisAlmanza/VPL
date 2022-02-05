@@ -1,8 +1,8 @@
 # VPL
 
-#Pasos para empezar en github
+# Pasos para empezar en github
 
-##Tener instalado git en tu computadora
+## Tener instalado git en tu computadora
 Revisar si esta instalado git, colocar el siguiente comando en tu terminal.
 ```
   input: git --version
@@ -10,20 +10,20 @@ Revisar si esta instalado git, colocar el siguiente comando en tu terminal.
 ```
 sino te da un output parecido, instalar git.
 
-##Si es windows
+## Si es windows
 Con que instales git bash se instala git y con git bash podras administrar tus repositorios.
 
-##Configurar tus credenciales de github
+## Configurar tus credenciales de github
   ** Configurar tu nombre en git **
-  *Abre gitbash
+  - Abre gitbash
 ```
   git config --global user.name "Nombre de usuario"  
 ```
-  *Confirmar que este el nombre se establecio correctamente
+  - Confirmar que este el nombre se establecio correctamente
 ```
   git config --global user.name 
 ```
   o puedes revisar el archivo **cat ./gitconfig**
 
-##Clonar un repositorio en github
+## Clonar un repositorio en github
   Si es un repositorio privado necesitaras estar inivitado al proyecto
